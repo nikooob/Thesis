@@ -1,0 +1,1156 @@
+options
+ fullscreen
+#resolution 1200 800
+
+bitmaps
+errorup
+errordown
+errorleft
+errorright
+instructions1
+instructions2
+instructions21
+instructions22
+instructions3
+instructions4
+instructions41
+instructions5
+beginpratice
+beginexperiment
+praticetrial
+realtrials
+selfinstructions
+error
+introandkeypress
+introandkeypress2
+avatarinstructions
+done
+fixationcross
+ballrighttop1
+ballrighttop2
+ballrighttop3
+ballrighttop4
+ballrighttop5
+ballrightright1
+ballrightright2
+ballrightright3
+ballrightright4
+ballrightright5
+ballrightdown1
+ballrightdown2
+ballrightdown3
+ballrightdown4
+ballrightdown5
+ballrightleft1
+ballrightleft2
+ballrightleft3
+ballrightleft4
+ballrightleft5
+avatarrighttop1
+avatarrighttop2
+avatarrighttop3
+avatarrighttop4
+avatarrighttop5
+avatarrightright1
+avatarrightright2
+avatarrightright3
+avatarrightright4
+avatarrightright5
+avatarrightdown1
+avatarrightdown2
+avatarrightdown3
+avatarrightdown4
+avatarrightdown5
+A11111 #avatarrightleft
+B11111 #avatarrightleft2
+C11111 #avatarrightleft3
+D11111 #avatarrightleft4
+E11111 #avatarrightleft5
+balllefttop1
+balllefttop2
+balllefttop3
+balllefttop4
+balllefttop5
+ballleftright1
+ballleftright2
+ballleftright3
+ballleftright4
+ballleftright5
+ballleftdown1
+ballleftdown2
+ballleftdown3
+ballleftdown4
+ballleftdown5
+ballleftleft1
+ballleftleft2
+ballleftleft3
+ballleftleft4
+ballleftleft5
+avatarlefttop1
+avatarlefttop2
+avatarlefttop3
+avatarlefttop4
+avatarlefttop5
+avatarleftleft1
+avatarleftleft2
+avatarleftleft3
+avatarleftleft4
+avatarleftleft5
+avatarleftdown1
+avatarleftdown2
+avatarleftdown3
+avatarleftdown4
+avatarleftdown5
+avatarleftright1
+avatarleftright2
+avatarleftright3
+avatarleftright4
+avatarleftright5
+practiceselfself
+practiceselfavatar
+practiceselfnoeffect
+practiceavataravatar
+practiceavatarself
+practiceavatarnoeffect
+breakkk
+switchh
+nextpartselfavatar
+nextpartselfnoeffect
+instructions6
+instructions61
+nextpartavatarself
+nextpartavatarnoeffect
+avatarrr
+selfff
+
+
+#avatarlefttop
+#avatarleftright
+#avatarleftbottom
+#avatarleftleft
+
+table PRACTICESELFSELF
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5           errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5    errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5             errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111                                                        errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5                   errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5            errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5                    errordown
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5             errorleft
+
+table PRACTICESELFAVATAR
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5                         errorup 
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5               errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5                   errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5                      errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5  errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5  errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5  errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5 errorleft
+
+ table PRACTICESELFNOEFFECT
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1 0 0 0 0  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 0 0 0 0 errorright
+ "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 0 0 0 0 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 0 0 0 0 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5 0 0 0 0  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 0 0 0 0 errorright
+ "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 0 0 0 0 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 0 0 0 0 errorleft
+
+
+table PRACTICEAVATARAVATAR
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorup
+
+
+table PRACTICEAVATARSELF
+"ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+"ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5 errorup
+"ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errorright
+"ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111 errordown
+"ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5 errorright
+"ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5 errordown
+"ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errorleft
+"ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5  errorup
+
+table PRACTICEAVATARNOEFFECT
+"ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 0 0 0 0   errorleft
+"ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 0 0 0 0   errorup
+"ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3 0 0 0 0  errorleft
+"ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4 0 0 0 0  errordown
+"ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 0 0 0 0  errorright
+"ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 0 0 0 0   errordown
+"ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 0 0 0 0   errorleft
+"ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8 0 0 0 0  errorup
+
+table AVATARAVATAR
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallTop MovingBall"     ballrighttop1     1     ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5 errorleft
+ "ResponseAvatar EffectAvatar FacingRight BallRight MovingBall"   ballrightright1   2     ballrightright2 ballrightright3 ballrightright4 ballrightright5 errorup
+ "ResponseAvatar EffectAvatar FacingRight BallBottom MovingBall"  ballrightdown1   3      ballrightdown2    ballrightdown3  ballrightdown4  ballrightdown5  errorright
+ "ResponseAvatar EffectAvatar FacingRight BallLeft MovingBall"    ballrightleft1   4      ballrightleft2    ballrightleft3  ballrightleft4  ballrightleft5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallTop MovingBall"     balllefttop1     5       balllefttop2      balllefttop3    balllefttop4    balllefttop5  errorright
+ "ResponseAvatar EffectAvatar FacingLeft BallRight MovingBall"   ballleftright1   6       ballleftright2    ballleftright3  ballleftright4  ballleftright5  errordown
+ "ResponseAvatar EffectAvatar FacingLeft BallBottom MovingBall"  ballleftdown1   7        ballleftdown2     ballleftdown3   ballleftdown4   ballleftdown5 errorleft
+ "ResponseAvatar EffectAvatar FacingLeft BallLeft MovingBall"    ballleftleft1   8        ballleftleft2     ballleftleft3   ballleftleft4   ballleftleft5 errorleft
+
+
+table SELFSELF
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+ "ResponseSelf EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorup
+ "ResponseSelf EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorright
+ "ResponseSelf EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5 errordown
+ "ResponseSelf EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errorleft
+ "ResponseSelf EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4 avatarlefttop5 errorup
+ "ResponseSelf EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6    avatarleftright2 avatarleftright3 avatarleftright4 avatarleftright5  errorright
+ "ResponseSelf EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5  errordown 
+ "ResponseSelf EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorleft
+
+
+
+table SELFAVATAR
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+ "ResponseSelf EffectAvatar FacingRight BallTop MovingBall"        ballrighttop1    1    ballrighttop2  ballrighttop3  ballrighttop4 ballrighttop5  errorup
+ "ResponseSelf EffectAvatar FacingRight BallRight MovingBall"      ballrightright1    2    ballrightright2 ballrightright3 ballrightright4 ballrightright5  errorright
+ "ResponseSelf EffectAvatar FacingRight BallBottom MovingBall"      ballrightdown1    3   ballrightdown2 ballrightdown3 ballrightdown4  ballrightdown5  errordown
+ "ResponseSelf EffectAvatar FacingRight BallLeft MovingBall"      ballrightleft1    4  ballrightleft2 ballrightleft3 ballrightleft4  ballrightleft5 errorleft
+ "ResponseSelf EffectAvatar FacingLeft BallTop MovingBall"        balllefttop1    5    balllefttop2  balllefttop3 balllefttop4 balllefttop5 errorup
+ "ResponseSelf EffectAvatar FacingLeft BallRight MovingBall"      ballleftright1    6   ballleftright2 ballleftright3 ballleftright4 ballleftright5 errorright
+ "ResponseSelf EffectAvatar FacingLeft BallBottom MovingBall"      ballleftdown1    7  ballleftdown2 ballleftdown3 ballleftdown4  ballleftdown5 errordown
+ "ResponseSelf EffectAvatar FacingLeft BallLeft MovingBall"      ballleftleft1    8 ballleftleft2 ballleftleft3 ballleftleft4  ballleftleft5  errorleft
+
+
+
+table AVATARSELF
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+ "ResponseAvatar EffectSelf FacingRight BallTop MovingAvatar"           avatarrighttop1    1    avatarrighttop2  avatarrighttop3 avatarrighttop4  avatarrighttop5 errorleft
+ "ResponseAvatar EffectSelf FacingRight BallRight MovingAvatar"        avatarrightright1  2    avatarrightright2 avatarrightright3  avatarrightright4  avatarrightright5  errorup
+  "ResponseAvatar EffectSelf FacingRight BallBottom MovingAvatar"   avatarrightdown1   3     avatarrightdown2 avatarrightdown3 avatarrightdown4 avatarrightdown5  errorright
+ "ResponseAvatar EffectSelf FacingRight BallLeft MovingAvatar"         A11111      4     B11111 C11111 D11111 E11111  errordown
+ "ResponseAvatar EffectSelf FacingLeft BallTop MovingAvatar"           avatarlefttop1    5    avatarlefttop2 avatarlefttop3 avatarlefttop4  avatarlefttop5  errorright
+ "ResponseAvatar EffectSelf FacingLeft BallRight MovingAvatar"        avatarleftright1  6   avatarleftright2 avatarleftright3 avatarleftright4  avatarleftright5  errordown
+  "ResponseAvatar EffectSelf FacingLeft BallBottom MovingAvatar"   avatarleftdown1   7    avatarleftdown2 avatarleftdown3 avatarleftdown4 avatarleftdown5 errorleft
+ "ResponseAvatar EffectSelf FacingLeft BallLeft MovingAvatar"         avatarleftleft1      8    avatarleftleft2 avatarleftleft3 avatarleftleft4 avatarleftleft5 errorup
+
+
+table SELFNORESPONSE
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ "ResponseSelf EffectNoeffect FacingRight BallTop MovingNone"           avatarrighttop1    1  errorup
+ "ResponseSelf EffectNoeffect FacingRight BallRight MovingNone"        avatarrightright1  2 errorright
+  "ResponseSelf EffectNoeffect FacingRight BallBottom MovingNone"   avatarrightdown1  3 errordown
+ "ResponseSelf EffectNoeffect FacingRight BallLeft MovingNone"         A11111 4 errorleft
+ "ResponseSelf EffectNoeffect FacingLeft BallTop MovingNone"           avatarlefttop1    5  errorup
+ "ResponseSelf EffectNoeffect FacingLeft BallRight MovingNone"        avatarleftright1  6 errorright
+  "ResponseSelf EffectNoeffect FacingLeft BallBottom MovingNone"   avatarleftdown1  7 errordown
+ "ResponseSelf EffectNoeffect FacingLeft BallLeft MovingNone"         avatarleftleft1 8 errorleft
+ 
+table AVATARNORESPONSE
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallTop MovingNone"     ballrighttop1     1 errorleft
+ "ResponseAvatar EffectNoeffect FacingRight BallRight MovingNone"   ballrightright1   2 errorup
+ "ResponseAvatar EffectNoeffect FacingRight BallBottom MovingNone"  ballrightdown1   3  errorright
+ "ResponseAvatar EffectNoeffect FacingRight BallLeft MovingNone"    ballrightleft1   4  errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallTop MovingNone"     balllefttop1     5 errorright
+ "ResponseAvatar EffectNoeffect FacingLeft BallRight MovingNone"   ballleftright1   6 errordown
+ "ResponseAvatar EffectNoeffect FacingLeft BallBottom MovingNone"  ballleftdown1  7 errorleft
+ "ResponseAvatar EffectNoeffect FacingLeft BallLeft MovingNone"    ballleftleft1   8  errorup
+ 
+ task TASKpracticeselfself
+   table PRACTICESELFSELF
+   keys up right down left up right down left 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+ fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+ fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+ task TASKpracticeselfavatar
+   table PRACTICESELFAVATAR
+   keys up right down left up right down left 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+ fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+ fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+ 
+ task TASKpracticeselfnoeffect
+   table PRACTICESELFNOEFFECT
+   keys up right down left up right down left 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+ fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+ fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+
+ task TASKpracticeavataravatar
+   table PRACTICEAVATARAVATAR
+   keys left up right down right down left up 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+ fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+ fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+ task TASKpracticeavatarself
+   table PRACTICEAVATARSELF
+   keys left up right down right down left up 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+ task TASKpracticeavatarnoeffect
+   table PRACTICEAVATARNOEFFECT
+   keys left up right down right down left up 
+   show bitmap fixationcross
+   delay 1000
+   clear -1
+   show bitmap @2 0 0
+   readkey @3 5000000000000
+   clear -1
+   if STATUS != CORRECT
+   show bitmap @8
+   delay 3500
+   clear -1
+ fi
+   if STATUS == CORRECT and @4 != 0
+   show bitmap @4 0 0
+   delay 60
+   clear -1
+   show bitmap @5 0 0
+   delay 60
+   clear -1
+   show bitmap @6 0 0
+   delay 60
+   clear -1
+   show bitmap @7 0 0
+   delay 560
+   clear
+ fi
+   if STATUS == CORRECT and @4 == 0
+ fi
+ #delay 500
+ save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+
+task TASKAvatarAvatar
+  table AVATARAVATAR
+  keys left up right down right down left up
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @8
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+  show bitmap @4 0 0
+  delay 60
+  clear -1
+  show bitmap @5 0 0
+  delay 60
+  clear -1
+  show bitmap @6 0 0
+  delay 60
+  clear -1
+  show bitmap @7 0 0
+  delay 60
+  clear
+fi
+delay 500
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+
+task TASKSelfSelf
+  table SELFSELF
+  keys up right down left up right down left
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @8
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+  show bitmap @4 0 0
+  delay 60
+  clear -1
+  show bitmap @5 0 0
+  delay 60
+  clear -1
+  show bitmap @6 0 0
+  delay 60
+  clear -1
+  show bitmap @7 0 0
+  delay 60
+  clear
+fi
+delay 500
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+task TASKSelfAvatar
+  table SELFAVATAR
+  keys up right down left up right down left
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @8
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+  show bitmap @4 0 0
+  delay 60
+  clear -1
+  show bitmap @5 0 0
+  delay 60
+  clear -1
+  show bitmap @6 0 0
+  delay 60
+  clear -1
+  show bitmap @7 0 0
+  delay 60
+  clear
+fi
+delay 500
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+task TASKAvatarSelf
+  table AVATARSELF
+  keys left up right down right down left up
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @8
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+  show bitmap @4 0 0
+  delay 60
+  clear -1
+  show bitmap @5 0 0
+  delay 60
+  clear -1
+  show bitmap @6 0 0
+  delay 60
+  clear -1
+  show bitmap @7 0 0
+  delay 60
+  clear
+fi
+delay 500
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+task TASKSelfNoresponse
+  table SELFNORESPONSE
+  keys  up right down left up right down left
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @4
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+#delay 560
+fi
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+task TASKAvatarNoresponse
+  table AVATARNORESPONSE
+  keys left up right down right down left up
+  show bitmap fixationcross
+  delay 1000
+  clear -1
+  show bitmap @2 0 0
+  readkey @3 5000000000000
+  clear -1
+  if STATUS != CORRECT
+  show bitmap @4
+  delay 3500
+  clear -1
+fi
+  if STATUS == CORRECT
+  clear
+fi
+save @1 STATUS RT BLOCKORDER BLOCKNAME
+
+
+
+task REALTRIALS
+  table AVATARNORESPONSE
+  keys space
+  show bitmap beginexperiment 
+  readkey @3 3000000000000
+clear -1
+  if STATUS == CORRECT
+  clear 
+fi
+  if STATUS != CORRECT
+  clear
+fi 
+  
+
+
+task DONEE
+  table AVATARNORESPONSE
+  keys space
+  show bitmap done 
+  readkey @3 3000000000000
+clear -1
+  if STATUS == CORRECT
+  clear 
+fi
+  if STATUS != CORRECT
+  clear
+fi 
+
+
+task BREAKKK
+  table AVATARNORESPONSE
+  keys q
+  show bitmap breakkk 
+  readkey @3 3000000000000
+clear -1
+  if STATUS == CORRECT
+  clear 
+fi
+  if STATUS != CORRECT
+  clear
+fi 
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+block TRAININGSELFSELF
+  pager instructions1 instructions2 instructions22 instructions21 instructions4 instructions41 instructions5  beginpratice selfff
+  tasklist
+  TASKpracticeselfself 8 all_before_repeat
+  end
+
+
+#block TRAININGSELFSELF                                   #7
+#  message instructions1
+#  message instructions2
+#  message instructions3
+#  message instructions5
+#  message practiceselfself
+#  message beginpratice
+#  tasklist
+#  TASKpracticeselfself 8 all_before_repeat
+#end
+
+block SELFSELF    
+pager beginexperiment selfff
+#pager selfinstructions
+#message beginexperiment                       #2
+#message selfinstructions
+  tasklist
+  TASKSelfSelf 8 all_before_repeat
+end
+
+block TRAININGSELFAVATAR
+pager nextpartselfavatar beginpratice selfff
+#pager nextpartselfavatar beginpratice
+#  message nextpartselfavatar
+#  message beginpratice
+  tasklist
+  TASKpracticeselfavatar 8 all_before_repeat
+end
+
+block SELFAVATAR   
+pager  beginexperiment selfff
+#
+#pager beginexperiment selfinstructions
+#  message beginexperiment
+#  message selfinstructions
+  tasklist
+  TASKSelfAvatar 8 all_before_repeat
+end
+
+
+block TRAININGSEFLFNOEFFECT
+pager nextpartselfnoeffect beginpratice  selfff
+#pager nextpartselfnoeffect beginpratice
+#  message nextpartselfnoeffect
+#  message beginpratice
+  tasklist
+  TASKpracticeselfnoeffect 8 all_before_repeat
+end
+
+block SELFNORESPONSE    
+pager beginexperiment selfff                            
+#pager beginexperiment 
+#  message beginexperiment
+#  message selfinstructions
+  tasklist
+  TASKSelfNoresponse 8 all_before_repeat
+end
+
+
+block TRAININGAVATARAVATAR                                   #8
+pager switchh instructions6 instructions61 beginpratice avatarrr
+#  message switchh
+#  message instructions4
+#  message practiceavataravatar
+#  message beginpratice
+  tasklist
+  TASKpracticeavataravatar 8 all_before_repeat
+end
+
+block AVATARAVATAR                               
+pager beginexperiment avatarrr
+#  message beginexperiment
+#  message avatarinstructions
+  tasklist
+  TASKAvatarAvatar 8 all_before_repeat
+end
+
+
+block TRAININGAVATARSELF                             
+pager nextpartavatarself beginpratice avatarrr
+#  message practiceavatarself
+#  message beginpratice
+  tasklist
+  TASKpracticeavatarself 8 all_before_repeat
+end
+
+
+block AVATARSELF              
+pager beginexperiment avatarrr
+#  message beginexperiment
+#  message avatarinstructions
+  tasklist
+  TASKAvatarSelf 8 all_before_repeat
+end
+
+
+block TRAININGAVATARNOEFFECT                            #8
+pager nextpartavatarnoeffect beginpratice avatarrr
+#  message practiceavatarnoeffect
+#  message beginpratice
+  tasklist
+  TASKpracticeavatarnoeffect 8 all_before_repeat
+end
+
+
+block AVATARNORESPONSE        
+pager beginexperiment avatarrr
+#  message beginexperiment                   
+#  message avatarinstructions
+  tasklist
+  TASKAvatarNoresponse 8 all_before_repeat
+end
+
+
+block DONEEE
+ tasklist 
+ DONEE 1
+end
+
+block BREAKKKK
+ tasklist 
+ BREAKKK 1
+end
+
+block REALTRIALS
+ tasklist 
+ REALTRIALS 1
+end
+
+blockorder SELF11 
+   TRAININGSELFSELF
+   SELFSELF
+   TRAININGSELFAVATAR
+   SELFAVATAR
+   TRAININGSEFLFNOEFFECT
+   SELFNORESPONSE
+   BREAKKKK
+   TRAININGAVATARAVATAR
+   AVATARAVATAR
+   TRAININGAVATARSELF
+   AVATARSELF
+   TRAININGAVATARNOEFFECT
+   AVATARNORESPONSE
+   DONEEE
+  
